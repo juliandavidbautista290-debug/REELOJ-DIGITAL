@@ -2,23 +2,24 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: firebrick;
+    background-color: firebrick; /* fondo de la página */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh; /* ocupa toda la pantalla */
-    color: white; /* color del texto */
 }
 
 h1 {
     margin-bottom: 2rem;
+    color: white; /* título en blanco */
 }
 
 #reloj {
     font-size: 4rem; /* tamaño grande */
     font-weight: bold;
-    background-color: black; /* si quieres un fondo para el reloj */
+    background-color: black; /* fondo del reloj */
+    color: aquamarine; /* números en agua marina */
     padding: 1rem 2rem;
     border-radius: 10px;
     text-align: center;
