@@ -1,26 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppis', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black; /* cambiamos de firebrick a negro */
+    background-color: black; /* ahora sí será negro */
+    color: aquamarine; /* color de texto por defecto, opcional */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* ocupa toda la pantalla */
-}
-
-h1 {
-    margin-bottom: 2rem;
-    color: aquamarine; /* título también color agua marina */
-}
-
-#reloj {
-    font-size: 4rem;
-    font-weight: bold;
-    background-color: black; /* fondo del reloj */
-    color: aquamarine; /* números en agua marina */
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    text-align: center;
+    height: 100vh; /* para centrar verticalmente */
+    flex-direction: column; /* para que el h1 y el reloj estén uno encima del otro */
 }
